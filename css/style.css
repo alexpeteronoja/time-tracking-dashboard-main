@@ -1,0 +1,168 @@
+ * {
+     margin: 0;
+ }
+ 
+ body {
+     background-color: hsl(226, 43%, 10%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     color: hsl(236, 100%, 87%);
+     font-family: "Rubik", serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 18px;
+     color: #ffffff
+ }
+ 
+ p {
+     margin-bottom: 3px;
+ }
+ 
+ #card-section {
+     display: grid;
+ }
+ 
+ .card-rad {
+     border-radius: 14px;
+ }
+ 
+ .bold-font {
+     font-weight: 400;
+     font-size: 25px;
+ }
+ /* Profile Details */
+ 
+ .profile-card {
+     background-color: hsl(235, 46%, 20%);
+     border-radius: 10px;
+ }
+ 
+ .profile-details {
+     column-gap: 20px;
+     background-color: hsl(246, 80%, 60%);
+     padding: 10px;
+     border-radius: 10px;
+ }
+ 
+ .profile-details img {
+     width: 70px;
+     border: 2px solid white;
+     border-radius: 100%;
+ }
+ 
+ .period {
+     padding: 14px;
+     border-radius: 10px;
+ }
+ 
+ .link {
+     text-decoration: none;
+ }
+ 
+ .link:hover {
+     color: #ffffff;
+ }
+ 
+ .selected {
+     color: #ffffff;
+ }
+ 
+ .card-top {
+     height: 33px;
+     background-repeat: no-repeat;
+     background-position: right 14px top -10px;
+ }
+ 
+ .card-body {
+     background-color: hsl(235, 46%, 20%);
+     padding: 14px;
+     border-radius: 10px;
+ }
+ /* Work Card */
+ 
+ .work {
+     background-color: hsl(15, 100%, 70%);
+ }
+ 
+ .work .card-top {
+     background-image: url(/images/icon-work.svg);
+ }
+ /* Play card */
+ 
+ .play {
+     background-color: hsl(195, 74%, 62%);
+ }
+ 
+ .play .card-top {
+     background-image: url(/images/icon-play.svg);
+ }
+ /* Study Card */
+ 
+ .study {
+     background-color: hsl(348, 100%, 68%);
+ }
+ 
+ .study .card-top {
+     background-image: url(/images/icon-study.svg);
+ }
+ /* Exercise Card */
+ 
+ .exercise {
+     background-color: hsl(145, 58%, 55%);
+ }
+ 
+ .exercise .card-top {
+     background-image: url(/images/icon-exercise.svg);
+ }
+ /* Social Card */
+ 
+ .social {
+     background-color: hsl(264, 64%, 52%);
+ }
+ 
+ .social .card-top {
+     background-image: url(/images/icon-social.svg);
+ }
+ /* Self Care Card */
+ 
+ .self-care {
+     background-color: hsl(43, 84%, 65%);
+ }
+ 
+ .self-care .card-top {
+     background-image: url(/images/icon-self-care.svg);
+ }
+ 
+ @media (min-width: 998px) {
+     #card-section {
+         grid-template-columns: auto auto auto auto;
+         row-gap: 10px;
+         column-gap: 15px;
+     }
+     .card-rad {
+         width: 210px;
+     }
+     .profile-card {
+         grid-column: 1;
+         grid-row: 1 / span 2;
+     }
+     .work {
+         grid-column: 2;
+     }
+     .play {
+         grid-column: 3;
+     }
+     .study {
+         grid-column: 4;
+     }
+     .profile-details {
+         height: 208px;
+         row-gap: 30px;
+     }
+     .period {
+         row-gap: 10px;
+     }
+ }
