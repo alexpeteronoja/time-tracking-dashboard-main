@@ -88,7 +88,7 @@
  }
  
  .work .card-top {
-     background-image: url(/images/icon-work.svg);
+     background-image: url(./images/icon-work.svg);
  }
  /* Play card */
  
@@ -97,7 +97,7 @@
  }
  
  .play .card-top {
-     background-image: url(/images/icon-play.svg);
+     background-image: url(./images/icon-play.svg);
  }
  /* Study Card */
  
@@ -106,7 +106,7 @@
  }
  
  .study .card-top {
-     background-image: url(/images/icon-study.svg);
+     background-image: url(./images/icon-study.svg);
  }
  /* Exercise Card */
  
@@ -115,7 +115,7 @@
  }
  
  .exercise .card-top {
-     background-image: url(/images/icon-exercise.svg);
+     background-image: url(./images/icon-exercise.svg);
  }
  /* Social Card */
  
@@ -124,7 +124,7 @@
  }
  
  .social .card-top {
-     background-image: url(/images/icon-social.svg);
+     background-image: url(./images/icon-social.svg);
  }
  /* Self Care Card */
  
@@ -133,7 +133,7 @@
  }
  
  .self-care .card-top {
-     background-image: url(/images/icon-self-care.svg);
+     background-image: url(./images/icon-self-care.svg);
  }
  
  @media (min-width: 998px) {
